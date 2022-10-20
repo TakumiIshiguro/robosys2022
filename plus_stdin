@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX -FileCopyrightText: 2022　Takumi Ishiguro
 import sys
 
 x = 0.0
