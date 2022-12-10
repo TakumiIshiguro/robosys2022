@@ -22,7 +22,7 @@ out=$(echo | ./plus)
 [ "${out}" = "" ] || ng ${LINENO}
 
 out=$(seq 5 | ./times)
-[ "${out}" = 15 ] || ng ${LINENO}
+[ "${out}" = 120 ] || ng ${LINENO}
 
 out=$(echo あ | ./times)
 [ "$?" = 1 ]      || ng ${LINENO}
