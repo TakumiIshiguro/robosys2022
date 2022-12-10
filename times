@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Takumi Ishiguro
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+x = 1
+for n in sys.stdin:
+    try:
+      x *= int(n)
+    except:
+      x *= float(n)
+
+print(x)
+

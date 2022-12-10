@@ -1,18 +1,55 @@
 [![test](https://github.com/TakumiIshiguro/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/TakumiIshiguro/robosys2022/actions/workflows/test.yml)
 
 # robosys2022
-このレポジトリは千葉工業大学未来ロボティクス学科のロボットシステム学の講義で作成した。
+千葉工業大学未来ロボティクス学科のロボットシステム学の講義で作成したレポジトリである。
 
-# plus
+# 機能
+
+以下のコマンドで「robosys2022」ディレクトリに移動
+```
+$ cd robosys2022
+```
+
+1. plus
 
 * 機能
 
-入力した数字以下の自然数を足して答えを表示する。
+入力した数字を読み込み、１から読み込んだ自然数までを足して答えを表示する。
 
 * 使い方
 
 ```
-seq [自然数] | ./plus
+$ seq [自然数] | ./plus
+```
+
+* 実行結果
+
+```
+$ seq 5 | ./plus
+```
+```
+$ 15
+```
+
+2. times
+
+* 機能
+ 
+入力した数字を読み込み、１から読み込んだ自然数までを足して答えを表示する。
+
+* 使い方
+
+```
+$ seq [自然数] | ./times
+```
+
+* 実行結果
+
+```
+$ seq 5 | ./times
+```
+```
+$ 120
 ```
 
 # 動作確認済み環境
@@ -28,9 +65,8 @@ seq [自然数] | ./plus
 * 以下のコマンドを実行
 
 ```
-git clone https://github.com/TakumiIshiguro/robosys2022.git
+$ git clone https://github.com/TakumiIshiguro/robosys2022.git
 ```
-
 
 # ライセンス
 
