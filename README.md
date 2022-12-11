@@ -31,6 +31,7 @@ $ seq 5 | ./plus
 $ 15
 ```
 
+
 2. times
 
 * 機能
@@ -54,15 +55,15 @@ $ 120
 
 # 動作確認済み環境
 
-* テスト済み　Python 3.7～3.10
+テスト済み　Python 3.7～3.10
 
 # テスト環境
 
-* Ubuntu 22.04.1 LTS
+Ubuntu 22.04.1 LTS
 
 # インストール方法
 
-* 以下のコマンドを実行
+以下のコマンドを実行
 
 ```
 $ git clone https://github.com/TakumiIshiguro/robosys2022.git
@@ -70,5 +71,5 @@ $ git clone https://github.com/TakumiIshiguro/robosys2022.git
 
 # ライセンス
 
-* このソフトウェアパッケージは3条項BSDのライセンスの下、再頒布および使用が使用が許可されます。
-* © 2022 Takumi Ishiguro
+このソフトウェアパッケージは3条項BSDのライセンスの下、再頒布および使用が使用が許可されます。
+© 2022 Takumi Ishiguro
