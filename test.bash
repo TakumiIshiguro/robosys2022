@@ -10,7 +10,6 @@ ng () {
 res=0
 + res=0
 
-# plusのテスト
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
 
@@ -22,12 +21,7 @@ out=$(echo | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo ? | ./plus)
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
 
-
-# timesのテスト
 out=$(seq 5 | ./times)
 [ "${out}" = 120 ] || ng ${LINENO}
 
@@ -39,9 +33,6 @@ out=$(echo | ./times)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo ? | ./times)
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
