@@ -1,7 +1,7 @@
 [![test](https://github.com/TakumiIshiguro/robosys2022/actions/workflows/test.yml/badge.svg)](https://github.com/TakumiIshiguro/robosys2022/actions/workflows/test.yml)
 
 ## robosys2022
-千葉工業大学未来ロボティクス学科のロボットシステム学の講義で作成したレポジトリである。
+千葉工業大学未来ロボティクス学科のロボットシステム学の講義で作成したレポジトリである。  
 このレポジトリには、plusとtimesという名前のコマンドがある。
 
 
