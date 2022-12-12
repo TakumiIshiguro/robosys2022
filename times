@@ -11,4 +11,3 @@ for n in sys.stdin:
       x *= float(n)
 
 print(x)
-
